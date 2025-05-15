@@ -1,3 +1,7 @@
+import entradaDados from 'readline-sync';
+let nome = entradaDados.question("imforme seu nome: ");
+console.log('Óla, ${nome}!')
+
 //Solicite ao usuário para inserir um número representando um dia da
 //semana (1 a 7) e mostre o nome do dia correspondente.
 //01
